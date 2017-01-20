@@ -1,7 +1,10 @@
-export {Collision}
+export {Collision};
+import * as wrapper from "sin-wrapper.js";
+
+const _wrapper = Symbol('wrapper');
 
 class Collision {
-    getReturnAngle(enterAngle, formerMedium, newMedium) {
-        return null;
+    constructor() {
+        this[_wrapper] = new wrapper.SinWrapper();
     }
 }

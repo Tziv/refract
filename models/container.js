@@ -1,9 +1,9 @@
 export {Container};
 
-const _originPoint = new Symbol('originPoint');
-const _width = new Symbol('width');
-const _height = new Symbol('height');
-const _fluid = new Symbol('fluid');
+const _originPoint = Symbol('originPoint');
+const _width = Symbol('width');
+const _height = Symbol('height');
+const _fluid = Symbol('fluid');
 
 class Container {
     constructor(originPoint, width, height, fluid) {

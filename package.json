@@ -1,0 +1,23 @@
+{
+  "name": "refract",
+  "version": "1.0.0",
+  "description": "A puzzle game in which you use Snell's law to get the laser from a starting point to its goal. Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tziv/refract.git"
+  },
+  "author": "Tzur Ziv, Yonathan Amir, Yftach Manor, Lior Arbel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tziv/refract/issues"
+  },
+  "homepage": "https://github.com/Tziv/refract#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "lodash": "^4.17.4"
+  }
+}

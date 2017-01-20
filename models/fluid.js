@@ -1,11 +1,15 @@
 export {fluid}
 
-const _color = new Symbol('color');
-const _refractIndex = new Symbol('refractIndex');
+const _color = Symbol('color');
+const _refractIndex = Symbol('refractIndex');
 
 class fluid {
     constructor(color, refractIndex) {
         this[_color] = color;
         this[_refractIndex] = refractIndex;
+    }
+
+    get refractIndex() {
+        return this[_refractIndex];
     }
 }
